@@ -4,7 +4,7 @@
   "functions": {
     "api/index.js": {
       "memory": 128,
-      "maxDuration": 3600
+      "maxDuration": 60
     }
   },
   "rewrites": [
