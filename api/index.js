@@ -4,7 +4,7 @@ import { pipeline } from "node:stream/promises";
 export const config = {
   api: { bodyParser: false },
   supportsResponseStreaming: true,
-  maxDuration: 60,
+  maxDuration: 3600,
 };
 
 const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
